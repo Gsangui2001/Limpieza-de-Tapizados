@@ -66,31 +66,34 @@ header{
 /* empieza de main */
 main {
     background-color: rgb(86, 103, 119);
-    display: flex;
-    flex-direction: column; 
-    flex-wrap: wrap; 
-    width: 100vw;
 }
 
+.section__main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
 
 .section__imagen {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 100vw;
     height: auto;
 }
 
 .section__calendario {
     display: flex;
-    flex-wrap: wrap;
-    width: 50%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .calendario{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 20%;
+    padding-bottom: 30px;
 }
 
 .seccion__parrafo{
@@ -728,6 +731,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
 }
 /* end preguntas frecuentes */
 /* medidas de tablet */
