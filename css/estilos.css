@@ -21,7 +21,7 @@ p {
 }  
 
 header{
-    background-color: rgb(29, 66, 66);
+    background-color: #F96024;
     height: 70px;
 }
 /* comienzo de header */
@@ -65,7 +65,7 @@ header{
 /* end e header */
 /* empieza de main */
 main {
-    background-color: rgb(86, 103, 119);
+    background-color: white;
 }
 
 .section__main {
@@ -106,7 +106,7 @@ main {
 /* empieza de footer */
 
 footer {
-    background-color: rgb(72, 109, 114);
+    background-color: #FF7832;
 }
 
 .footer__logo {
