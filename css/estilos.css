@@ -27,6 +27,7 @@ header{
 /* comienzo de header */
 .header__logo {
     width: 70px;
+    height: auto;
 }
 
 .header__titulo {
@@ -80,6 +81,19 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     height: auto;
+    animation-name: desplazarse;
+    animation-duration: 2s;
+}
+/* desplazamiento de imagen haica la derecha de 2s */
+@keyframes desplazarse {
+    from {
+        position: relative;
+        left: 0;
+    }
+
+    to {
+        left: 50%
+    }
 }
 
 .section__calendario {
