@@ -29,6 +29,17 @@ header{
     width: 70px;
 }
 
+@keyframes desplazarse {
+    from {
+        position: relative;
+        left: 0;
+    }
+
+    to {
+        left: 50%
+    }
+}
+
 .header__titulo {
     display: flex;
     justify-content: center;
@@ -80,6 +91,8 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     height: auto;
+    animation-name: desplazarse;
+    animation-duration: 2s;
 }
 
 .section__calendario {
