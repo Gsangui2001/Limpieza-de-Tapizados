@@ -81,19 +81,6 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     height: auto;
-    animation-name: desplazarse;
-    animation-duration: 2s;
-}
-/* desplazamiento de imagen haica la derecha de 2s */
-@keyframes desplazarse {
-    from {
-        position: relative;
-        left: 0;
-    }
-
-    to {
-        left: 50%
-    }
 }
 
 .section__calendario {
