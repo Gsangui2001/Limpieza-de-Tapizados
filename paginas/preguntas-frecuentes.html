@@ -22,7 +22,31 @@
 <body>
     <!-- fila de logo + nav -->
     <header> <!-- ENCABEZADO -->
-        <nav class="header__nav">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- <nav class="header__nav">
             <img class="header__logo" src="../recursos/favicon.png">
             <h1 class="header__titulo">Limpieza de Tapizados</h1>
             <ul class="header__ul">
@@ -32,18 +56,38 @@
                 <li class="header__item"><a href="servicios.html">Servicios</a></li>
                 <li class="header__item"><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <!-- cierre de fila logo + nav -->
     <!-- inicio del main -->
     <main>
         <h2>Preguntas Frecuentes</h2>
-        <section>
-            <article class="mobile__preg">
-                <img class="pregunta frecuente" src="../recursos/pregunta.jpg" alt="pregunta">
-            </article>
-        </section>
-        <section>
+        <div class="section__main">
+            <section>
+                <article class="mobile__preg">
+                    <img class="pregunta frecuente" src="../recursos/pregunta.jpg" alt="pregunta">
+                </article>
+            </section>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Preguntas comunes</h5>
+    <!--                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <!--                 <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a> -->
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Preguntas comunes</h5>
+    <!--                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <!--                 <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a> -->
+                    </div>
+                </div>
+            </div>
+        <!-- <section>
             <article class="mobile__preg">
                 <p class="uno">Lorem, Suscipit alias tenetur odio cupiditate id animi delectus doloribus illum aut autem possimus est atque, at laboriosam quos ipsam similique laudantium provident!</p>
             </article>
@@ -52,7 +96,7 @@
             <article class="mobile__preg">
                 <p class="dos">Lorem, Suscipit alias tenetur odio cupiditate id animi delectus doloribus illum aut autem possimus est atque, at laboriosam quos ipsam similique laudantium provident!</p>
             </article>
-        </section>
+        </section> -->
     </main>
     <!-- cierre del main -->
     <!-- inicio de footer -->

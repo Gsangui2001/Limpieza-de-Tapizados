@@ -25,10 +25,10 @@ header{
     height: 70px;
 }
 /* comienzo de header */
-.header__logo {
-    width: 70px;
+/* .header__logo {
+    width: 0px;
     height: auto;
-}
+} */
 
 .header__titulo {
     display: flex;
