@@ -1,0 +1,46 @@
+.servicios{
+    text-align: center;
+    &__1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+        font-family: $font-texto;
+        font-size: $font-size-ser;
+    }
+    
+    &__2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: $font-texto;
+        font-size: $font-size-ser;
+    }
+    
+    &__3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: $font-texto;
+        font-size: $font-size-ser;
+    }
+    
+    &__4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: $font-texto;
+        font-size: $font-size-ser;
+    }
+    
+    .h3{
+        text-align: center;
+    }
+    
+    &__parrafo{
+        text-align: center;
+    }
+}

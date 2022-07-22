@@ -1,0 +1,38 @@
+main {
+    background-color:$color-main;
+    .main{
+        &__main {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        &__imagen {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            height: auto;
+        }
+        
+        &__calendario {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .calendario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            padding-bottom: 30px;
+        }
+        
+        &__parrafo{
+            font-family: $font-texto;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

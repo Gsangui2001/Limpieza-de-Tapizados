@@ -1,0 +1,20 @@
+footer {
+    background-color:$color-footer;
+    .footer{
+        &__logo {
+            display: inline;
+            width: 70px;
+            height: 70px;
+        }
+        
+        &__iconos {
+            display: inline;
+        }
+        
+        .spam{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+    }
+}
