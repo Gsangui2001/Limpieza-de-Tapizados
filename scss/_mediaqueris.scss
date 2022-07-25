@@ -1,13 +1,4 @@
 @media (min-width: 320px) and (max-width: 575px) {
-    /* navegacion mobile */
-    .nav{
-        flex-direction: column;
-        .logo{
-            width: 100vw;
-            margin: 0%;
-        }
-    }
-
     header {
         height: auto;
         .header{
@@ -20,6 +11,13 @@
                 flex-grow: 0;
                 justify-content: center;
                 align-items: center;
+            }
+            .nav{
+                flex-direction: column;
+            }
+            .logo{
+            width: 100vw;
+            margin: 0%;
             }
         }
     }
