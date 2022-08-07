@@ -1,7 +1,7 @@
 /* Fuentes */
 /* Medidas */
 footer {
-  background-color: #486d72; }
+  background-color: #8B8B8B; }
   footer .footer__logo {
     display: inline;
     width: 70px;
@@ -46,7 +46,7 @@ header {
   }
 
 main {
-  background-color: #566777; }
+  background-color: #C9C9C9; }
   main .sectiom__main {
     display: flex;
     flex-direction: row;
