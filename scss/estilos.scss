@@ -1,17 +1,20 @@
 @import "variables";
-@import "footer";
-@import "header";
 @import "main";
+@import "header";
+@import "footer";
 @import "galeria";
 @import "servicios";
 @import "preguntas-frecuentes";
-*{
+
+* {
     margin: 0%;
     padding: 0%;
 }
+
 /* receteo */
 body {
     font-family: 'Lato', sans-serif;
+    min-height: 100%;
 }
 
 h1 {
@@ -25,4 +28,8 @@ h2 {
 
 p {
     padding: 0 16px;
-}  
+}
+
+html {
+    height: 100vh;
+}

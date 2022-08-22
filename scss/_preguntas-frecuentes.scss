@@ -1,31 +1,15 @@
-.pregunta{
+.section-preguntas {
     display: flex;
-    width: 35%;
-    height: auto;
-    .frecuente{    
+    flex-direction: row;
+
+    .pregunta-frecuente {
+        display: flex;
+        width: 35%;
+        height: auto;
         display: flex;
         flex-direction: row;
         width: $width-pf;
         height: $height-pf;
-    }
-    
-    .uno{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-family: $font-texto;
-        font-size: $font-size-pf;
-    }
-    
-    .dos{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
-        text-align: center;
-        font-family: $font-texto;
-        font-size: $font-size-pf;
+        margin-right: 30px;
     }
 }

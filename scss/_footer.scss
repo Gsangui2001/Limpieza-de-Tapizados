@@ -1,18 +1,21 @@
 footer {
-    background-color:$color-footer;
-    .footer{
+    background-color: $color-footer;
+
+    .footer {
         &__logo {
             display: inline;
             width: 70px;
             height: 70px;
         }
-        
+
         &__iconos {
             display: inline;
         }
-        
-        .spam{
+
+        .spam {
             display: flex;
+            margin-right: 2rem;
+            padding-top: 1rem;
             align-items: flex-end;
             justify-content: flex-end;
         }

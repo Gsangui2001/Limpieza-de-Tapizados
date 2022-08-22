@@ -1,148 +1,143 @@
-.galeria{
+.galeria {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: $font-texto;
-    font-size: $font-size-gal;
-    border: 1px solid black;
-    background-color: black;
-    color: $color-galeria;
-    &__grid{
+    flex-direction: column;
+
+    &__titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $font-texto;
+        font-size: $font-size-gal;
+        border: 1px solid black;
+        background-color: black;
+        color: $color-galeria;
+    }
+
+    &__grid {
         display: grid;
         margin: 5%;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "alfombra habitacion trapiando sill"
-                            "aspirando sillon cortina alf"
-                            "sala cojin almohadon tres";
-        column-grap: 15px;
+            "aspirando sillon cortina alf"
+            "sala cojin almohadon tres";
+        column-gap: 15px;
         row-gap: 15px;
     }
-    
-    .alfombra{
+
+    .alfombra {
         grid-column-start: 1;
         grid-row-start: 1;
-        background-image: url("../recursos/alfombra.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: $width-galeria;
-        height: $height-galeria;
+        width: 250px; //$width-galeria;
+        height: 250px; //$height-galeria;
     }
-    
-    .trapiando{
+
+    .trapiando {
         grid-column-start: 3;
         grid-row-start: 1;
-        background-image: url("../recursos/trapiando(1).jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .habitacion{
+
+    .habitacion {
         grid-column-start: 2;
         grid-row-start: 1;
-        background-image: url("../recursos/habitacion.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .aspirando{
+
+    .aspirando {
         grid-column-start: 1;
         grid-row-start: 2;
-        background-image: url("../recursos/aspirando.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .sillon{
+
+    .sillon {
         grid-column-start: 2;
         grid-row-start: 2;
-        background-image: url("../recursos/sillon.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .cojin{
+
+    .cojin {
         grid-column-start: 2;
         grid-row-start: 3;
-        background-image: url("../recursos/cojin.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .sala{
+
+    .sala {
         grid-column-start: 1;
         grid-row-start: 3;
-        background-image: url("../recursos/sala.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .cortina{
+
+    .cortina {
         grid-column-start: 3;
         grid-row-start: 2;
-        background-image: url("../recursos/cortina.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .almohadon{
+
+    .almohadon {
         grid-column-start: 3;
         grid-row-start: 3;
-        background-image: url("../recursos/almohadon.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .sill{    
+
+    .sill {
         grid-column-start: 4;
-        grid-row-start:1;
-        background-image: url("../recursos/sill.jpg");
+        grid-row-start: 1;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    
-    .alf{
+
+    .alf {
         grid-column-start: 4;
         grid-row-start: 2;
-        background-image: url("../recursos/alf.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: $width-galeria;
         height: $height-galeria;
     }
-    .tres{
+
+    .tres {
         grid-column-start: 4;
         grid-row-start: 3;
-        background-image: url("../recursos/tres.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
