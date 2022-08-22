@@ -3,9 +3,9 @@
 
     &__1 {
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: start;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         font-family: $font-texto;
         font-size: $font-size-ser;
     }
@@ -37,7 +37,7 @@
         font-size: $font-size-ser;
     }
 
-    .h3 {
+    .h2 {
         text-align: center;
     }
 

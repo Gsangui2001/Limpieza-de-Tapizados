@@ -31,6 +31,7 @@
 /* galeria mobile*/
 .galeria{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Lato', sans-serif;
@@ -45,14 +46,20 @@
     &__grid{
         display: grid;
         margin: 5%;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "alfombra tres"
-                            "aspirando almohadon"
-                            "sala cojin"
-                            "habitacion alf"
-                            "trapiando cortina"
-                            "sill sillon";
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "alfombra"
+                            "tres"
+                            "aspirando"
+                            "almohadon"
+                            "sala"
+                            "cojin"
+                            "habitacion" 
+                            "alf"
+                            "trapiando"
+                            "cortina"
+                            "sill" 
+                            "sillon";
         column-gap: 5px;
         row-gap: 5px;
         
@@ -66,11 +73,12 @@
         background-repeat: no-repeat;
         width: 150px;
         height: 150px;
+
     }
     
     .trapiando{
         grid-column-start: 1;
-        grid-row-start: 5;
+        grid-row-start: 9;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -80,7 +88,7 @@
     
     .habitacion{
         grid-column-start: 1;
-        grid-row-start: 4;
+        grid-row-start: 7;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -90,7 +98,7 @@
     
     .aspirando{
         grid-column-start: 1;
-        grid-row-start: 2;
+        grid-row-start: 3;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -99,8 +107,8 @@
     }
     
     .sillon{
-        grid-column-start: 2;
-        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-row-start: 12;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -109,8 +117,8 @@
     }
     
     .cojin{
-        grid-column-start: 2;
-        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-row-start: 6;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -120,16 +128,6 @@
     
     .sala{
         grid-column-start: 1;
-        grid-row-start: 3;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 150px;
-        height: 150px;
-    }
-    
-    .cortina{
-        grid-column-start: 2;
         grid-row-start: 5;
         background-position: center;
         background-size: cover;
@@ -138,9 +136,19 @@
         height: 150px;
     }
     
+    .cortina{
+        grid-column-start: 1;
+        grid-row-start: 10;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+    }
+    
     .almohadon{
-        grid-column-start: 2;
-        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-row-start: 4;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -150,7 +158,7 @@
     
     .sill{    
         grid-column-start: 1;
-        grid-row-start:6;
+        grid-row-start: 11;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -159,8 +167,8 @@
     }
     
     .alf{
-        grid-column-start: 2;
-        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-row-start: 8;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -168,8 +176,8 @@
         height: 150px;
     }
     .tres{
-        grid-column-start: 2;
-        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-start: 2;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
