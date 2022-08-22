@@ -68,6 +68,13 @@ footer {
     align-items: flex-end;
     justify-content: flex-end; }
 
+/* contacto */
+.row-contact{
+  margin:0%
+}
+  .row-margin{
+    margin: 10px;
+  }
 .galeria {
   display: flex;
   flex-direction: column; }
@@ -85,7 +92,9 @@ footer {
     margin: 5%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "alfombra habitacion trapiando sill" "aspirando sillon cortina alf" "sala cojin almohadon tres";
+    grid-template-areas: "alfombra habitacion trapiando sill"
+                          "aspirando sillon cortina alf"
+                          "sala cojin almohadon tres";
     column-gap: 15px;
     row-gap: 15px; }
   .galeria .alfombra {
