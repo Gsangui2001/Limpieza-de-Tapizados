@@ -1,10 +1,13 @@
 main {
     background-color: $color-main;
+}
 
-    .main {
         .section__calendario {
             display: flex;
-            align-items: flex-end;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
 
         .calendario {
@@ -19,6 +22,5 @@ main {
             font-family: $font-texto;
             font-size: 20px;
             text-align: center;
+            padding-right: 1rem;
         }
-    }
-}
