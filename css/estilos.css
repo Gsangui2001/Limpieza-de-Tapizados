@@ -85,9 +85,7 @@ footer {
     margin: 5%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "alfombra habitacion trapiando sill"
- "aspirando sillon cortina alf"
- "sala cojin almohadon tres";
+    grid-template-areas: "alfombra habitacion trapiando sill" "aspirando sillon cortina alf" "sala cojin almohadon tres";
     column-gap: 15px;
     row-gap: 15px; }
   .galeria .alfombra {
@@ -256,11 +254,3 @@ p {
 
 html {
   height: 100vh; }
-
-/* contato */
-.row-contact{
-  margin: 0%;
-}
-.row-margin{
-  margin: 10px;
-}
