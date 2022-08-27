@@ -28,30 +28,6 @@ main {
 header {
   background-color: #C9C9C9;
   height: 70px; }
-  header .header__titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    color: #101620; }
-  header .header__nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; }
-  header .header__ul {
-    display: flex;
-    list-style: none;
-    padding: 0 16px;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-grow: 1; }
-  header .header__item {
-    padding: 20px; }
-  header .header__item a {
-    color: black;
-    text-decoration: none; }
 
 footer {
   background-color: #C9C9C9; }
