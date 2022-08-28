@@ -3,230 +3,175 @@
 /* Colores */
 /* Tamanio de fuentes */
 main {
-  background-color: #C9C9C9; }
-
+  background-color: #C9C9C9;
+}
+.nav-section{
+  z-index: 100;
+}
+.carousel-section{
+  z-index: 90;
+}
 .section__calendario {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 .calendario {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 20%;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+}
 
 .section__parrafo {
   font-family: "Lato", sans-serif;
   font-size: 20px;
   text-align: center;
-  padding-right: 1rem; }
+  padding-right: 1rem;
+}
 
 header {
   background-color: #C9C9C9;
-  height: 70px; }
+  height: 70px;
+}
 
 footer {
-  background-color: #C9C9C9; }
-  footer .footer__logo {
-    display: inline;
-    width: 70px;
-    height: 70px; }
-  footer .footer__iconos {
-    display: inline; }
-  footer .footer .spam {
-    display: flex;
-    margin-right: 2rem;
-    padding-top: 1rem;
-    align-items: flex-end;
-    justify-content: flex-end; }
+  background-color: #C9C9C9;
+}
+
+footer .footer__logo {
+  display: inline;
+  width: 70px;
+  height: 70px;
+}
+
+footer .footer__iconos {
+  display: inline;
+}
+
+footer .footer .spam {
+  display: flex;
+  margin-right: 2rem;
+  padding-top: 1rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 
 .galeria {
   display: flex;
-  flex-direction: column; }
-  .galeria__titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Lato", sans-serif;
-    font-size: 25px;
-    border: 1px solid black;
-    background-color: black;
-    color: #D6D6D6; }
-  .galeria__grid {
-    display: grid;
-    margin: 5%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "alfombra habitacion trapiando sill" "aspirando sillon cortina alf" "sala cojin almohadon tres";
-    column-gap: 15px;
-    row-gap: 15px; }
-  .galeria .alfombra {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .trapiando {
-    grid-column-start: 3;
-    grid-row-start: 1;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .habitacion {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .aspirando {
-    grid-column-start: 1;
-    grid-row-start: 2;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .sillon {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .cojin {
-    grid-column-start: 2;
-    grid-row-start: 3;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .sala {
-    grid-column-start: 1;
-    grid-row-start: 3;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .cortina {
-    grid-column-start: 3;
-    grid-row-start: 2;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .almohadon {
-    grid-column-start: 3;
-    grid-row-start: 3;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .sill {
-    grid-column-start: 4;
-    grid-row-start: 1;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .alf {
-    grid-column-start: 4;
-    grid-row-start: 2;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
-  .galeria .tres {
-    grid-column-start: 4;
-    grid-row-start: 3;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px; }
+  flex-direction: column;
+}
+
+.galeria__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  border: 1px solid black;
+  background-color: black;
+  color: #D6D6D6;
+}
+
+.galeria__grid img {
+  width: 80%;
+  margin-bottom: 15px;
+}
 
 .servicios {
-  text-align: center; }
-  .servicios__1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-size: 20px; }
-  .servicios__2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-size: 20px; }
-  .servicios__3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-size: 20px; }
-  .servicios__4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-size: 20px; }
-  .servicios .h2 {
-    text-align: center; }
-  .servicios__parrafo {
-    text-align: center; }
+  text-align: center;
+}
+
+.servicios__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.servicios__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.servicios__3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.servicios__4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.servicios .h2 {
+  text-align: center;
+}
+
+.servicios__parrafo {
+  text-align: center;
+}
 
 .section-preguntas {
   display: flex;
-  flex-direction: row; }
-  .section-preguntas .pregunta-frecuente {
-    display: flex;
-    width: 35%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
-    margin-right: 30px; }
+  flex-direction: row;
+}
+
+.section-preguntas .pregunta-frecuente {
+  display: flex;
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 300px;
+  margin-right: 30px;
+}
 
 * {
   margin: 0%;
-  padding: 0%; }
+  padding: 0%;
+}
 
 /* receteo */
 body {
-  font-family: 'Lato', sans-serif;
-  min-height: 100%; }
+  font-family: "Lato", sans-serif;
+  min-height: 100%;
+}
 
 h1 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center; }
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
 
 h2 {
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif;
+}
 
 p {
-  padding: 0 16px; }
+  padding: 0 16px;
+}
 
 html {
-  height: 100vh; }
+  height: 100vh;
+}
+
+/*# sourceMappingURL=estilos.css.map */
